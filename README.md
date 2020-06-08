@@ -1,10 +1,11 @@
 # InstagramCrop
-A custom python script to automatically add a white square border to all images in a directory
+A custom python script to automatically add a white square border to all images in a directory. 
+
 Uses the Python Image Library (PIL)
 
 TODO:
 
--Add support for other file types
+-Add support for other file types (currently only supports '.jpg')
 
 -Add support for passing select images by command line args
 
