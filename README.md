@@ -3,12 +3,21 @@ A custom python script to automatically add a white square border to all images 
 
 Uses the Python Image Library (PIL)
 
-TODO:
+##Usage
+Call the script with "python3 insta.py" to uncrop all supported images files in current directory and
+store them in a subdirectory 'SQUARES'.
 
--Add support for other file types (currently only supports '.jpg')
+You can also pass images as command line args i.e. "python3 insta.py dog.png cat.jpg" will only uncrop these
+two files.
 
--Add support for passing select images by command line args
+Supported flags for basic border colors:
+  -black
+  -blue
+  -red
+  -yellow
+  -green
+  -grey
 
--Add support for choosing border color
-
--Create a subdirectory to store all processed images in for convenience
+###TODO:
+-Allow user to specify output directory
+-Allow for complex border backgrounds such as a resized-blurred version of the original image
