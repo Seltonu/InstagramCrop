@@ -84,6 +84,7 @@ for image in images_to_modify:
     cropped = ImageOps.expand(img, border=border, fill=border_color)
     print(".", end="")
 
+    #move to directory to save, and back out
     os.chdir("SQUARES")
     cropped.save(out_file)
     os.chdir(path)
